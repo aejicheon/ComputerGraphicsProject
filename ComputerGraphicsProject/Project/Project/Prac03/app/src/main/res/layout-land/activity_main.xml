@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/eyeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="◀"/>
+
+        <Button
+            android:id="@+id/eyeForward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▲"/>
+        <Button
+            android:id="@+id/eyeBackward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▼"/>
+
+        <Button
+            android:id="@+id/eyeRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▶"/>
+    </LinearLayout>
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
